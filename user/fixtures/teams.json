@@ -1,0 +1,51 @@
+[
+{
+    "model": "user.team",
+    "pk": 1,
+    "fields": {
+        "name": "단비"
+    }
+},
+{
+    "model": "user.team",
+    "pk": 2,
+    "fields": {
+        "name": "다래"
+    }
+},
+{
+    "model": "user.team",
+    "pk": 3,
+    "fields": {
+        "name": "블라블라"
+    }
+},
+{
+    "model": "user.team",
+    "pk": 4,
+    "fields": {
+        "name": "철로"
+    }
+},
+{
+    "model": "user.team",
+    "pk": 5,
+    "fields": {
+        "name": "땅이"
+    }
+},
+{
+    "model": "user.team",
+    "pk": 6,
+    "fields": {
+        "name": "해태"
+    }
+},
+{
+    "model": "user.team",
+    "pk": 7,
+    "fields": {
+        "name": "수피"
+    }
+}
+]

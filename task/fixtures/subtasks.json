@@ -1,0 +1,72 @@
+[
+{
+    "model": "task.subtask",
+    "pk": 1,
+    "fields": {
+        "created_at": "2023-04-25T07:17:20.919Z",
+        "modified_at": "2023-04-25T07:20:50.286Z",
+        "is_deleted": false,
+        "deleted_at": null,
+        "task": 1,
+        "team": 1,
+        "is_completed": true,
+        "completed_date": "2023-04-25T07:20:50.286Z"
+    }
+},
+{
+    "model": "task.subtask",
+    "pk": 2,
+    "fields": {
+        "created_at": "2023-04-25T07:17:20.919Z",
+        "modified_at": "2023-04-25T07:17:20.919Z",
+        "is_deleted": false,
+        "deleted_at": null,
+        "task": 1,
+        "team": 2,
+        "is_completed": false,
+        "completed_date": "2023-04-25T07:17:20.919Z"
+    }
+},
+{
+    "model": "task.subtask",
+    "pk": 3,
+    "fields": {
+        "created_at": "2023-04-25T07:17:20.919Z",
+        "modified_at": "2023-04-25T07:17:20.919Z",
+        "is_deleted": false,
+        "deleted_at": null,
+        "task": 1,
+        "team": 3,
+        "is_completed": false,
+        "completed_date": "2023-04-25T07:17:20.919Z"
+    }
+},
+{
+    "model": "task.subtask",
+    "pk": 4,
+    "fields": {
+        "created_at": "2023-04-25T07:17:58.393Z",
+        "modified_at": "2023-04-25T07:17:58.393Z",
+        "is_deleted": false,
+        "deleted_at": null,
+        "task": 2,
+        "team": 3,
+        "is_completed": false,
+        "completed_date": "2023-04-25T07:17:58.393Z"
+    }
+},
+{
+    "model": "task.subtask",
+    "pk": 5,
+    "fields": {
+        "created_at": "2023-04-25T07:22:59.693Z",
+        "modified_at": "2023-04-25T07:22:59.693Z",
+        "is_deleted": false,
+        "deleted_at": null,
+        "task": 3,
+        "team": 2,
+        "is_completed": false,
+        "completed_date": "2023-04-25T07:22:59.693Z"
+    }
+}
+]
