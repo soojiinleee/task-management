@@ -1,0 +1,27 @@
+# Python compiled files
+*.pyc
+__pycache__/
+
+# Django-related files
+*.log
+*.pot
+*.pyc
+local_settings.py
+db.sqlite3
+media/
+static/
+*.pyo
+*.pyc
+*.pyo
+*.DS_Store
+
+# PyCharm-related files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# settings
+.venv
+.env
+.pytest_cache
