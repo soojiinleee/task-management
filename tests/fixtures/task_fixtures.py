@@ -33,6 +33,19 @@ def completed_danbi_task(db, danbi_member, get_teams):
 
 
 @pytest.fixture
+def not_completed_danbi_task(db, danbi_member, get_teams):
+    task = Task.objects.create(
+        create_user=danbi_member,
+        team=danbi_member.team,
+        title=fake.sentence(),
+        content=fake.text(),
+    )
+    subtask1 = SubTask.objects.create(task=task, team=get_teams[0], is_completed=True)
+    subtask2 = SubTask.objects.create(task=task, team=get_teams[1])
+    return task
+
+
+@pytest.fixture
 def darae_task(db, darae_member, get_teams):
     task = Task.objects.create(
         create_user=darae_member,
